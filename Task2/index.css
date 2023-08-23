@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    overflow-y: auto;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    scroll-behavior: smooth;
+    width: 423px;
+    height: 589px;
+    background-color: aqua;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.mainbox {
+    top: 0;
+    position: sticky;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 423px;
+    height: 150px;
+    background-color: rgba(91, 1, 85, 0.904);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 376px;
+    height: 40px;
+
+}
+
+.taskbox {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 422px;
+    height: 71px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#userinput {
+    width: 300px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#addbtn {
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 1rem;
+    width: 70px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+::placeholder {
+    color: rgb(94, 93, 93);
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+#task {
+    cursor: pointer;
+    margin-left: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 264px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 18px;
+}
+
+#checked {
+    cursor: pointer;
+    margin-top: 2px;
+    width: 24px;
+    height: 25px;
+    background-color: black;
+}
+
+#del {
+    cursor: pointer;
+    margin-right: 11px;
+    border: none;
+    background-color: transparent;
+}
+
+#edit {
+    cursor: pointer;
+    margin-top: 0;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #450000;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 0.5px;
+    background-color: #450000;
+}
