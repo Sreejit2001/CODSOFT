@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+       
+    <style>
+  
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Asap:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:wght@300&family=Mulish&family=Playfair+Display&family=Poppins&family=Yeseva+One&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="main-container" style="min-width: 375px; height: 1500px;">
+
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(240, 189, 180) ;
+     height: 65px; font-size: 20px;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="font-family: 'Yeseva One', cursive;
+                            font-size: 20px;" aria-current="page" href="#about_section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="font-family: 'Yeseva One', cursive;
+                            font-size: 20px;" href="#skills_section">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="font-family: 'Yeseva One', cursive;
+                            font-size: 20px;" href="#project_section">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="font-family: 'Yeseva One', cursive;
+                            font-size: 20px;" href="#contact_section">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="home" id="home_section">
+            <div class="introduction">
+                <div class="tittle">
+
+                    <h3 id="hi">Hi! I'm</h3>
+                    <h2 id="name">Sreejit</h2>
+                    <h2 id="des">Developer</h2>
+
+                </div>
+                <div class="pic">
+                    <img class="selfimg" src="Pic.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about_section">
+            <div class="headingabout">
+                About
+            </div>
+            <div class="aboutbox">
+                <p>I hold a B.Tech degree with a strong passion for the IT field. With a foundation in technology, I
+                    have honed my skills by creating dynamic websites and delving into the world of Java development. My
+                    enthusiasm extends to Machine Learning projects, where I've actively engaged in developing
+                    innovative solutions. Beyond coding, I find solace in the art of photography, capturing moments
+                    through my lens. With a versatile background encompassing technology and creativity, I am committed
+                    to continuous growth, eager to explore the limitless possibilities that lie at the intersection of
+                    innovation and imagination.</p>
+            </div>
+        </section>
+
+        <section class="skills" id="skills_section">
+            <div class="headingskills">Skills</div>
+            <div class="proficiency">
+                <div class="box1">
+                    <div class="technology">
+                        <h3>Frontend</h3>
+                        <div class="box">
+                            <div class="progressbox"></div>
+                        </div>
+                    </div>
+
+                    <div class="technology">
+                        <h3>Database</h3>
+                        <div class="box">
+                            <div class="progressbox" style="width: 70%;"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="technology">
+                        <h3>Machine Learning</h3>
+                        <div class="box">
+                            <div class="progressbox" style="width:65%;"></div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="technology">
+                        <h3>Java</h3>
+                        <div class="box">
+                            <div class="progressbox" style="width:94%;"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="technology">
+                        <h3>Python</h3>
+                        <div class="box">
+                            <div class="progressbox" style="width: 70%;"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="technology">
+                        <h3>C#</h3>
+                        <div class="box">
+                            <div class="progressbox" style="width:60%;"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="projectsection" id="project_section">
+            <div class="headingproject">Projects</div>
+            <div class="project">
+                <div class="project-1">
+                    <div class="pbox" onclick="hdp()">
+
+                        <img width="299px" height="170px" src="ML.png">
+                        <div style="text-align: center; font-family: 'Yeseva One', cursive;
+                         font-size: 23px;">Heart Disease Prediction</div>
+
+                    </div>
+                    <div class="pbox" onclick="bms()">
+                        <img width="299px" height="170px" src="billing.jpg">
+                        <div style="text-align: center; font-family: 'Yeseva One', cursive;
+                         font-size: 23px;">Billing Management System</div>
+                    </div>
+
+                </div>
+                <div class="project-2">
+                    <div class="pbox" onclick="foodie()">
+                        <img width="299px" height="170px" src="foodie.jpg">
+                        <div style="text-align: center;font-family: 'Yeseva One', cursive;
+                         font-size: 23px;">Food Order App</div>
+                    </div>
+                    <div class="pbox" onclick="portfolio()">
+                        <img width="299px" height="170px" src="portfolio.jpg">
+                        <div style="text-align: center;font-family: 'Yeseva One', cursive;
+                         font-size: 23px;">Portfolio</div>
+
+                    </div>
+
+                </div>
+                <div class="project-3">
+                    <div class="pbox" onclick="todo()">
+                        <img width="299px" height="170px" src="to do.jpg">
+                        <div style="text-align: center;font-family: 'Yeseva One', cursive;
+                         font-size: 23px;">To-Do App</div>
+                    </div>
+                    <div class="pbox" onclick="calculator()">
+                        <img width="299px" height="170px" src="calculator.jpg">
+                        <div style="text-align: center;font-family: 'Yeseva One', cursive;
+                         font-size: 23px;">Calculator</div>
+
+                    </div>
+
+                </div>
+        </section>
+        <section class="buttonsection">
+            <div class="buttons">
+                <div class="resume">
+                    <button class="resumebtn" type="button" onclick="resume()">Resume</button>
+                </div>
+                <div class="contact">
+                    <button class="contactbtn" onclick="contact()">Conatact</button>
+                </div>
+            </div>
+        </section>
+        <div style="display: flex;justify-content: center;">
+            <hr>
+        </div>
+
+        <section class="Contact" id="contact_section">
+            <div class="cform">
+                <div class="contact-heading" style="text-align: center;">Contact </div>
+                
+                <div class="name"><label>Name</label> <input type="text"> </div>
+                <div class="email"><label>Email</label> <input type="email" required>
+                </div>
+
+                <div class="mob"> <label>Phone</label> <input type="text" required>
+                </div>
+                <div class="details"><label>Details</label> <textarea style="resize: none;   border: 2px solid blueviolet;
+                   border-radius: 5px;" rows="4" cols="59"></textarea> </div>
+                <div class="sub"><button class="sbtn" type="button" onclick="submit()">Submit</button> </div>
+            </form>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="foot">© 2023 Sreejit Guha Thakurta, Inc</div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
